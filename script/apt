@@ -8,3 +8,6 @@ php7.2-mbstring
 php7.2-xml
 php7.2-curl
 composer
+openjdk-8-jdk
+ant
+ant-contrib
