@@ -3,8 +3,8 @@ server {
          listen [::]:80 ipv6only=on;
  
          # Log files for Debugging
-         access_log /var/log/nginx/laravel-access.log;
-         error_log /var/log/nginx/laravel-error.log;
+         access_log /var/log/nginx/access.log;
+         error_log /var/log/nginx/error.log;
  
          # Webroot Directory for Laravel project
          root /var/www/app/public;
